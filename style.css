@@ -1,0 +1,510 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+.menu {
+	font-size: 3.5vh;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+} 
+
+
+.UP {
+    /*background-color: aqua;*/
+	width: 100vw;
+	height: 15vh;
+	position: fixed;
+}
+
+.menu_dm {
+    width: 30vW;
+	height: 10vh;
+	margin-top: 4vh;
+	margin-left: 5vh;
+	position: absolute;
+}
+
+#logodm {
+	background-image: url("./assets/logodm.png");
+	width: 5vw;
+	height: 10vh;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	display: none;
+	z-index: 1;
+	margin-left: -1vw;
+	margin-top: -1.5vh;
+}
+
+#logo {
+	display: block;
+}
+
+
+.menu_works {
+	float: right;
+	
+	width: 30vW;
+	height: 10vh;
+	text-align: right;
+	margin-top: 4vh;
+	margin-right: 5vh;
+}
+
+.DOWN {
+
+	width: 100vw;
+	height: 15vh;
+	margin-top: 90vh;
+	position: fixed;
+}
+
+
+.menu_about {
+	float: left;
+
+	width: 30vW;
+	height: 10vh;
+	margin-left: 5vh;
+
+}
+
+.menu_social {
+	float: right;
+    width: 30vW;
+	height: 10vh;
+	text-align: right;
+	margin-right: 5vh;
+}
+
+canvas {
+  display: block;
+	position: absolute;
+  width: 100vw ;
+  height: 100vh ;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+}
+
+
+
+@font-face {
+  font-family: "PixelVJVeranda";
+  src: url(http://res.cloudinary.com/dvxmjunfv/raw/upload/v1546968501/Fonts/PixelFJVerdana12pt.ttf) format("truetype");
+}
+
+#popupBox {
+  width: 60vw;
+  /*height: 10em;*/
+  background-color: #ddd;
+  overflow: auto;
+  padding: 0.0em;
+  border-style: outset;
+  border-width: 3px;
+	display: none;
+	left: 20vw;
+	top: 15vh;
+	position: absolute;
+}
+
+#alertSymbol {
+  display: inline-block;
+  width: 35%;
+}
+
+#alertSymbolImage {
+  display: inline-block;
+  width: 90%;
+  margin-left: 10%;
+  margin-bottom: 55%;
+	margin-top: 8%;
+    float:left;
+}
+
+#alertTitle {
+  display: inline;
+  font-family: "PixelVJVeranda", Tahoma;
+}
+
+#alertMessage {
+  display: inline;
+}
+
+#alertMessageText {
+  display: inline-block;
+  width: 60%;
+  height: 40vh;
+  font-family: "PixelVJVeranda", Tahoma;
+  overflow: scroll;
+    float: right;
+    margin-right: 2%;
+}
+
+#messageContent {
+  background-color: #ddd;
+}
+
+#exitWindow {
+  display: inline;
+  float: right;
+}
+
+#closeButtonContainer {
+  float: right;
+}
+
+#closeButton {
+  margin:0.1em;
+  font-family: "PixelVJVeranda", Tahoma;
+  font-size: 1em;
+  border-style: outset;
+}
+
+#exitWindowButton {
+  padding: 0em 0.2em;
+}
+
+#headerBar {
+  padding: 0.2em;
+  background-color: #0934C1;
+  color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#popupBoxSocial {
+  width: 19vw;
+  /*height: 10em;*/
+  background-color: #ddd;
+  padding: 0.0em;
+  border-style: outset;
+  border-width: 3px;
+	display: none;
+	left: 70vw;
+	top: 50vh;
+	position: absolute;
+}
+
+#alertSymbolSocial {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+#alertSymbolImageSocialIG {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 7%;	
+}
+
+#alertSymbolImageSocialMAIL {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 8%;
+  margin-bottom: 5%;	
+}
+
+#alertSymbolImageSocialLIN {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 6%;
+	
+}
+
+
+
+#alertTitleSocial {
+  display: inline;
+  font-family: "PixelVJVeranda", Tahoma;
+}
+
+
+
+#exitWindowSocial {
+  display: inline;
+  float: right;
+}
+
+#closeButtonContainerSocial {
+  float: right;
+}
+
+#closeButtonSocial {
+  margin:0.1em;
+  font-family: "PixelVJVeranda", Tahoma;
+  font-size: 1em;
+  border-style: outset;
+}
+
+#exitWindowButtonSocial {
+  padding: 0em 0.2em;
+}
+
+#headerBarSocial {
+  padding: 0.2em;
+  background-color: #0934C1;
+  color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+  /* For mobile phones: */
+	
+    
+	.menu_social_text {
+		text-align: right;
+		color: yellow;
+		
+	}
+	
+	a {
+	color: black;
+	text-decoration: none;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 9vw;
+	font-weight: bolder;
+}
+ 
+	canvas {
+    display: block;
+	position: absolute;
+	height: 1920px !important;
+	width: 1080px !important;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	overflow: hidden !important;
+	
+}
+	
+	.menu_social {
+	float: right;
+    width: 30vw;
+	height: 10vh;
+	text-align: right;
+	margin-right: 9vh;
+}
+	
+	.menu_dm {
+    width: 30vw;
+	height: 10vh;
+	margin-top: 4vh;
+	margin-left: 3vh;
+	position: absolute;
+}
+	
+	.menu_about {
+	float: left;
+	width: 30vw;
+	height: 10vh;
+	margin-left: 3vh;
+}
+	
+	.menu_works {
+	float: right;
+	width: 30vw;
+	height: 10vh;
+	text-align: right;
+	margin-top: 4vh;
+	margin-right: 1vh;
+}
+
+	#popupBox {
+  width: 95vw;
+  /*height: 10em;*/
+  background-color: #ddd;
+  overflow: auto;
+  padding: 0.0em;
+  border-style: outset;
+  border-width: 3px;
+	display: none;
+	left: 4vw;
+	top: 13vh;
+	position: absolute;
+}
+
+	#alertTitle {
+  display: inline;
+  font-family: "PixelVJVeranda", Tahoma;
+  font-size: 6vw;
+  margin-left: 2vw;	
+}
+	
+  #alertMessageText {
+  display: inline-block;
+  width: 60%;
+  height: 50vh;
+  font-family: "PixelVJVeranda", Tahoma;
+  overflow: scroll;
+  font-size: 2.5vh;
+  margin-top: 10%;
+}	
+	
+  #alertSymbol {
+  display: inline-block;
+  width: 35%;
+}
+
+#alertSymbolImage {
+  display: inline-block;
+  width: 150%;
+  margin-left: 5%;
+  margin-bottom: 50%;
+	margin-top: 10%;
+}	
+	
+  #closeButton {
+  margin:0.05em;
+  font-family: "PixelVJVeranda", Tahoma;
+  font-size: 1em;
+  border-style: outset;
+}
+
+#exitWindowButton {
+  padding: 0em 0.2em;
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-right: 2vw;
+  background-color: lightgrey;
+	
+}	
+	
+	
+ 
+    
+    
+    
+    
+    #popupBoxSocial {
+  width: 85vw;
+  /*height: 10em;*/
+  background-color: #ddd;
+  padding: 0.0em;
+  border-style: outset;
+  border-width: 3px;
+	display: none;
+	left: 20vw;
+	top: 40vh;
+	position: absolute;
+}
+
+#alertSymbolSocial {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+#alertSymbolImageSocialIG {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 7%;	
+}
+
+#alertSymbolImageSocialMAIL {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 8%;
+  margin-bottom: 5%;	
+}
+
+#alertSymbolImageSocialLIN {
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 6%;
+	
+}
+
+
+
+#alertTitleSocial {
+  display: inline;
+  font-family: "PixelVJVeranda", Tahoma;
+	font-size: 6vw;
+	margin-left: 2vw;	
+}
+
+
+
+#exitWindowSocial {
+  display: inline;
+  float: right;
+}
+
+#closeButtonContainerSocial {
+  float: right;
+}
+
+#closeButtonSocial {
+  margin:0.1em;
+  font-family: "PixelVJVeranda", Tahoma;
+  font-size: 1em;
+  border-style: outset;
+}
+
+#exitWindowButtonSocial {
+  padding: 0em 0.2em;
+     font-size: 4vw;
+    margin-top: 1vw;
+    margin-right: 2vw;
+  background-color: lightgrey;
+	
+}
+
+#headerBarSocial {
+  padding: 0.2em;
+  background-color: #0934C1;
+  color: #fff;
+}
+	
+ #logo {
+	display: block !important;
+}
+	
+ #logodm {
+	display: none !important;
+}
+	
+ .DOWN {
+
+	width: 100vw;
+	height: 15vh;
+	margin-top: 88vh;
+	position: fixed;
+}
+	
+}

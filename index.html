@@ -1,2 +1,85 @@
-<html>
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<title>DMurbex</title>
+</head>
+
+<body>
+	<script src="sketch.js"></script>
+	<script src="script.js"></script>
+	
+	<div class="UP">
+		<div class="menu_dm" onmouseover="apparelogo()" onmouseout="scomparelogo()">
+			<span class="menu home_text"> <a id="logo"> DM </a> </span>
+			<div id="logodm"> </div>
+		</div>
+		<div class="menu_works">
+			<span class="menu works_text"> <a href="works.html"> WORKS </a> </span>
+		</div>
+		</div>
+	<div class="DOWN">
+		<div class="menu_about">
+			<span class="menu about_text" onclick="apparebio()"> <a>ABOUT</a> </span>
+		</div>
+		<div class="menu_social" >
+			<span class="menu social_text" onclick="apparebioSocial()"> <a>CONTACTS</a> </span>
+		</div>
+	</div>
+	
+	
+	<div id="popupBox">
+  <div id="headerBar">
+    
+    <div id="alertTitle"> Diego Morra _ Bio </div>
+    <div id="exitWindow">
+      <button id="exitWindowButton" onclick="scomparebio()">✖</button>
+    </div>
+  </div>
+  
+  <div id="messageContent">
+    <div id="alertSymbol">
+      <img id="alertSymbolImage" src="https://raw.githubusercontent.com/DMurbex/DMurbex.github.io/main/assets/Io01.jpg">
+    </div>
+    <div id="alertMessage">
+      <p id="alertMessageText">My name is Diego Morra, born in 1994, and  I'm a photographer and a graphic designer.<br><br>
+ 
+Photography and graphic design have always been my greatest passions. After graduating in graphic design in 2015 I began my studies at the "Politecnico di Milano", graduating in 2018 in communication design.<br><br>
+ 
+Throughout the period of study I continued to work and deepen the knowledge inherent in my passions through school and work projects, and at the same time through continuous personal experimentation.<br><br>
+ 
+In 2016 I've started, with some friends, to explore and photograph, almost for fun, some abandoned places in the province of Milan. The charm of these places and the beauty that they hide within them have pushed us to continue this experience, taking us in the last two years, to find and explore almost 50 between mental hospitals, villas, churches, colonies and industrial factories.<br><br>
+ 
+Most of my photographs born during this period, between endless journeys, dark rooms, collapsed ceilings and memories of other times. I define my style as a mix between reportage, portrait and architectural photography, a search for the perfect balance between subject and environment, a sort of environmental portrait.</p> 
+    </div>
+  </div>
+</div>
+	
+	<div id="popupBoxSocial">
+  <div id="headerBarSocial">
+    
+	  <div id="alertTitleSocial"> Contact me_At your own risk </div>
+    <div id="exitWindowSocial">
+      <button id="exitWindowButtonSocial" onclick="scomparebioSocial()">✖</button>
+    </div>
+  </div>
+  
+  <div id="messageContentSocial">
+    <div id="alertSymbolSocial">
+      <a href="https://www.instagram.com/diegomorra" target="_blank"><img id="alertSymbolImageSocialIG" src="./assets/IGicon_B.png"></a>
+	  <a href="https://www.linkedin.com/in/diegomorra/" target="_blank"><img id="alertSymbolImageSocialLIN" src="./assets/LINicon_B.png"></a>
+	  <a href="mailto:diegomorra.dm@gmail.com" target="_blank"><img id="alertSymbolImageSocialMAIL" src="./assets/MAILicon_B.png"></a>
+    </div>
+  </div>
+</div>	
+
+
+
+	</body>
+
 </html>

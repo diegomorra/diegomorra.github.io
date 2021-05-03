@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    overflow: scroll;
+}
+
+.side_menu {
+	background-color: white;
+	width: 20vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 55px -25px blue;
+}
+
+.main_section {
+	width: 80vw;
+	height: 100vh;
+	float: right;
+	display: none;
+}
+
+.menu {
+	margin-top: 3vh;
+	margin-left: 3vw;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 3vh;
+}
+
+.titolo_menu {
+	color: rgb(0, 0, 255);
+    cursor: default;
+}
+
+.menu_voice {
+	font-size: 2vh; 
+    cursor: help;
+}
+
+.menu_voice:hover {
+	color:red;
+    cursor: help;
+}
+
+.menu_voice .dopo { display: none; }
+
+.menu_voice:hover .prima { display: none; }
+.menu_voice:hover .dopo { display: inline; }
+
+.back_icon {
+	background-image: url("./assets/back_blue.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 9vw;
+	height: 9vh;
+	left: 2vw;
+	bottom: 4vh;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    position: fixed;
+}
+
+.titolo_text {
+	font-family: "PixelVJVeranda", Tahoma;
+	font-size: 8vh;
+	float: right;
+	width: 100%;
+	text-align: center;
+    font-weight: bold;
+	
+}
+
+.descrizione_text {
+	font-size: 2vh;
+	float: right;
+	width: 70%;
+	margin-right: 15%;
+	margin-top: 2vh;
+	text-align: justify;
+	font-family: "PixelVJVeranda", Tahoma;
+}
+
+.immagine_singola {
+	float: right;
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-top: 2vw;	
+}
+
+iframe {
+	right: 5%;
+	margin-top: 2vw;	
+    width: 100%;
+}
+
+
+.afterText {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.close {
+        display: none;
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+	
+	.back_icon {
+	background-image: url("./assets/back_blue.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 19vw;
+	height: 9vh;
+	left: 3vw;
+	bottom: 4vh;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+        position: fixed;
+}
+    
+   
+    
+    .side_menu {
+	background-color: white;
+	width: 70vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+    display: none;
+            padding: 10px;
+    box-shadow: 0px 0px 50px -25px blue;
+}
+    
+    .main_section {
+	width: 100vw;
+	height: 100vh;
+	float: right;
+	display: none;
+}
+	
+	.menu_voice {
+	font-size: 2.5vh; 
+}
+	
+	.titolo_text {
+	font-family: "PixelVJVeranda", Tahoma;
+	font-size: 8vw;
+	float: right;
+	width: 100%;
+	text-align: center;
+    margin-top: 4vh;
+	
+}
+	
+    
+    .descrizione_text {
+	font-size: 2.5vh;
+	float: right;
+	width: 90%;
+    margin-right: 5%;
+	margin-top: 2vh;
+	text-align: justify;
+	font-family: "PixelVJVeranda", Tahoma;
+}
+    
+    .burger {
+        display: block;
+        width: 20vw;
+        height: 8vw;
+        background-color: white;
+        box-shadow: 0px 0px 30px 10px blue;
+        position: fixed;
+        bottom: 8vw;
+        left: 40vw;  
+        display: block;
+    }
+    
+    .burgerText {
+        color: blue;
+        text-align: center;
+        font-size: 3vh;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        width: 100%;
+        height: auto;
+        margin-top: 0.5vh;
+    }
+    
+    .close {
+        display: block;
+        position: fixed;
+        width: 19vw;
+	height: 9vh;
+	left: 42vw;
+	bottom: 2vh;
+         font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        color: blue;
+        font-size: 3vh;
+        
+        
+    }
+    
+    .fake_close {
+        display: none;
+        position: fixed;
+        right: 0vw;
+        width: 30vw;
+        height: 100vh;
+    }
+	
+}
