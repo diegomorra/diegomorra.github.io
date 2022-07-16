@@ -13,9 +13,7 @@ function work01() {
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
     document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
-    
+    document.getElementById("html, body").animate({ scrollTop: "0" },200); 
 
 }
 
@@ -162,6 +160,43 @@ function work09() {
     document.html.scrollTop(); // For Safari
     document.documentElement.scrollTop(); //for chrome
 }
+
+function work10() {
+	document.getElementById("01").style.display = "none";
+	document.getElementById("02").style.display = "none";
+    document.getElementById("03").style.display = "none";
+    document.getElementById("04").style.display = "none";
+    document.getElementById("05").style.display = "none";
+    document.getElementById("06").style.display = "none";
+    document.getElementById("07").style.display = "none";
+    document.getElementById("08").style.display = "none";
+    document.getElementById("09").style.display = "none";
+    document.getElementById("10").style.display = "block";
+    document.getElementById("11").style.display = "none";
+    document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
+    document.html.scrollTop(); // For Safari
+    document.documentElement.scrollTop(); //for chrome
+}
+
+function work11() {
+	document.getElementById("01").style.display = "none";
+	document.getElementById("02").style.display = "none";
+    document.getElementById("03").style.display = "none";
+    document.getElementById("04").style.display = "none";
+    document.getElementById("05").style.display = "none";
+    document.getElementById("06").style.display = "none";
+    document.getElementById("07").style.display = "none";
+    document.getElementById("08").style.display = "none";
+    document.getElementById("09").style.display = "none";
+    document.getElementById("10").style.display = "none";
+    document.getElementById("11").style.display = "block";
+    document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
+    document.html.scrollTop(); // For Safari
+    document.documentElement.scrollTop(); //for chrome
+}
+
 
 function menu_open() {
     document.getElementById("sidemenu").style.display = "block";

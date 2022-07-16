@@ -73,6 +73,28 @@ body {
 	
 }
 
+.link_progetto {
+	font-size: 2vh;
+	float: right;
+	width: 70%;
+	margin-right: 15%;
+	margin-top: 2vh;
+	text-align: center;
+	font-family: "PixelVJVeranda", Tahoma;
+    color:blue;
+}
+
+.link_progetto:visited {
+	font-size: 2vh;
+	float: right;
+	width: 70%;
+	margin-right: 15%;
+	margin-top: 2vh;
+	text-align: center;
+	font-family: "PixelVJVeranda", Tahoma;
+    color:red;
+}
+
 .descrizione_text {
 	font-size: 2vh;
 	float: right;
