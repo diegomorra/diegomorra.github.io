@@ -1,5 +1,20 @@
+/* just a test button, nothing special
+
+function buttonClicked(){
+    console.log("Button clicked");
+    window.scrollTo(0, 0);
+}
+
+window.onload=function(){
+  var btn = document.getElementById("scrolltotop");
+  btn.addEventListener("click", buttonClicked, true);
+}
+*/
+
+
 
 function work01() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "block";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -11,13 +26,12 @@ function work01() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.getElementById("html, body").animate({ scrollTop: "0" },200); 
-
 }
 
+
+
 function work02() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "block";
     document.getElementById("03").style.display = "none";
@@ -29,13 +43,10 @@ function work02() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work03() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "block";
@@ -47,13 +58,10 @@ function work03() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work04() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -65,13 +73,10 @@ function work04() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work05() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -83,13 +88,10 @@ function work05() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work06() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -101,13 +103,10 @@ function work06() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work07() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -119,13 +118,10 @@ function work07() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work08() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -137,13 +133,10 @@ function work08() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work09() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -155,13 +148,10 @@ function work09() {
     document.getElementById("09").style.display = "block";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 function work10() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -173,13 +163,11 @@ function work10() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "block";
     document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
+    
 }
 
 function work11() {
+    window.scrollTo(0, 0);
 	document.getElementById("01").style.display = "none";
 	document.getElementById("02").style.display = "none";
     document.getElementById("03").style.display = "none";
@@ -191,10 +179,6 @@ function work11() {
     document.getElementById("09").style.display = "none";
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "block";
-    document.getElementById("12").style.display = "none";
-    document.getElementById("13").style.display = "none";
-    document.html.scrollTop(); // For Safari
-    document.documentElement.scrollTop(); //for chrome
 }
 
 
