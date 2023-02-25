@@ -167,16 +167,10 @@ iframe {
 }
 
 .fade {
-/*	background-image: url("./assets/fade.png");*/
-    background-color: red;
-/*
-	background-size: contain;
-	background-repeat: no-repeat;
-*/
-	width: 50vw;
-	height: auto;
-	left:2vw;
-	bottom:2vw;
+    width: 70vw;
+	height: 250px;
+	left:0;
+	bottom:0;
     position: fixed;
 }
     
@@ -252,7 +246,7 @@ iframe {
     .close {
         display: block;
         position: fixed;
-        width: 19vw;
+        width: 22vw;
 	height: 9vh;
 	left: 42vw;
 	bottom: 2vh;
