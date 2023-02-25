@@ -27,6 +27,7 @@ function work01() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 
@@ -45,6 +46,7 @@ function work02() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work03() {
@@ -61,6 +63,7 @@ function work03() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work04() {
@@ -77,6 +80,7 @@ function work04() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work05() {
@@ -93,6 +97,7 @@ function work05() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work06() {
@@ -109,6 +114,7 @@ function work06() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work07() {
@@ -125,6 +131,7 @@ function work07() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work08() {
@@ -141,6 +148,7 @@ function work08() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work09() {
@@ -157,6 +165,7 @@ function work09() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work10() {
@@ -173,6 +182,7 @@ function work10() {
     document.getElementById("10").style.display = "block";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
     
 }
 
@@ -190,6 +200,7 @@ function work11() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "block";
     document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "none";
 }
 
 function work12() {
@@ -206,8 +217,25 @@ function work12() {
     document.getElementById("10").style.display = "none";
     document.getElementById("11").style.display = "none";
     document.getElementById("12").style.display = "block";
+    document.getElementById("13").style.display = "none";
 }
 
+function work13() {
+    window.scrollTo(0, 0);
+	document.getElementById("01").style.display = "none";
+	document.getElementById("02").style.display = "none";
+    document.getElementById("03").style.display = "none";
+    document.getElementById("04").style.display = "none";
+    document.getElementById("05").style.display = "none";
+    document.getElementById("06").style.display = "none";
+    document.getElementById("07").style.display = "none";
+    document.getElementById("08").style.display = "none";
+    document.getElementById("09").style.display = "none";
+    document.getElementById("10").style.display = "none";
+    document.getElementById("11").style.display = "none";
+    document.getElementById("12").style.display = "none";
+    document.getElementById("13").style.display = "block";
+}
 
 function menu_open() {
     document.getElementById("sidemenu").style.display = "block";

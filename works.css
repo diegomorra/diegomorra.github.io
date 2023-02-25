@@ -73,6 +73,17 @@ body {
 	
 }
 
+.tags_text {
+	font-family: "PixelVJVeranda", Tahoma;
+	font-size: 2vh;
+	float: right;
+	width: 100%;
+	text-align: center;
+    font-weight: 400;
+    Color: blue;
+	
+}
+
 .link_progetto {
 	font-size: 2vh;
 	float: right;
@@ -167,6 +178,7 @@ iframe {
     display: none;
             padding: 10px;
     box-shadow: 0px 0px 50px -25px blue;
+    overflow: scroll;
 }
     
     .main_section {
