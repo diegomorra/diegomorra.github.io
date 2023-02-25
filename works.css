@@ -165,6 +165,20 @@ iframe {
   transform: scaleX(-1);
         position: fixed;
 }
+
+.fade {
+/*	background-image: url("./assets/fade.png");*/
+    background-color: red;
+/*
+	background-size: contain;
+	background-repeat: no-repeat;
+*/
+	width: 50vw;
+	height: auto;
+	left:2vw;
+	bottom:2vw;
+    position: fixed;
+}
     
    
     
